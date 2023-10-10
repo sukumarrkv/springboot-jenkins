@@ -13,9 +13,10 @@ class SpringJenkinsApplicationTests {
 	private static Logger LOGGER = LoggerFactory.getLogger(SpringJenkinsApplicationTests.class);
 
 	@Test
-	contextLoads() {
+	void contextLoads() {
 		LOGGER.info("SpringJenkinsApplicationTests cases started executing");
 		LOGGER.info("SpringJenkinsApplicationTests cases started executing....from second logger statement");
+		LOGGER.info("Resloved the error");
 		assertEquals(true, true);
 	}
 
