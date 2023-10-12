@@ -17,6 +17,7 @@ class SpringJenkinsApplicationTests {
 		LOGGER.info("SpringJenkinsApplicationTests cases started executing");
 		LOGGER.info("SpringJenkinsApplicationTests cases started executing....from second logger statement");
 		LOGGER.info("Resloved the error");
+		LOGGER.info("One more logger to test jenkins pipeline");
 		assertEquals(true, true);
 	}
 

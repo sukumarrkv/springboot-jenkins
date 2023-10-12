@@ -19,6 +19,7 @@ public class SpringJenkinsApplication {
 
 	public static void main(String[] args) {
 		LOGGER.info("SpringJenkinsApplication main method executed");
+		LOGGER.info("One more logger to test jenkins pipeline");
 		SpringApplication.run(SpringJenkinsApplication.class, args);
 	}
 
